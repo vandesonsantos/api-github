@@ -1,4 +1,3 @@
-//? 1 FUNÇÃO PARA CHAMADA DA API
 import { baseUrl } from "/src/js/variables.js"
 
 async function getUser(userName){

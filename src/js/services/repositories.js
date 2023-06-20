@@ -1,4 +1,3 @@
-//? 2 FUNÇÃO PARA CHAMADA DA API
 import { baseUrl, repositoriesQuantity } from "/src/js/variables.js"
 
 async function getRepositories(userName){
