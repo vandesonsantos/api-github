@@ -1,0 +1,46 @@
+.container .profile-data .repositories h2{
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 1px 2px #0000005b;
+}
+
+.container .profile-data .repositories ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .profile-data .repositories ul li a{
+  padding: 10px;
+  border: 1px solid #808080;  
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+}
+
+.container .profile-data .repositories ul li span{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    font-size: 12px;
+}
+
+.container .profile-data .repositories ul li span p{
+    background-color: var(--background-icons);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 2px 1px 2px #0000005b;
+}
+
+.container .profile-data .repositories ul li a:hover{
+  background-color: var(--btn-hover);
+  color: #fff
+}
+
+.container .profile-data.hide{
+  display: none;
+}

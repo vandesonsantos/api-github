@@ -3,5 +3,7 @@
 
 :root{
     --background: #24292e;
+    --background-events: #5959592a;
+    --background-icons: #6c2ebec5;
     --btn-hover: #ff69b4;
 }
