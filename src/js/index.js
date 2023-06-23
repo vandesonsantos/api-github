@@ -47,4 +47,6 @@ async function getUserData(userName){
     user.setEvent(eventsResponse)
 
     screen.renderUser(user)
+    screen.renderRepo(user)
+    screen.renderEvents(user)
 }
